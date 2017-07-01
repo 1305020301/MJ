@@ -1,0 +1,215 @@
+html{font-size: 20px;}
+body{background: #eee;}
+/*头部搜索栏*/
+header{width:100%; height: 2rem; background: red; position:relative;}
+header input{width:10.5rem; border-radius: 10px;padding-left:1.5rem;
+    height: 1.3rem;
+    line-height:1.6rem;position: absolute;
+    left: 1.0rem;margin-top:0.3rem; background: url(../img/icon_search.png) no-repeat white 0.5rem 0.4rem; background-size:0.6rem 0.6rem;}
+header a{ position:absolute; right:1.1rem; top:0.6rem;}  
+header a img{width:0.6rem; height:0.8rem;}
+
+/*轮播图*/
+.swiper-container1{
+          width: 100%;
+          height:100%;
+          position: relative;
+          overflow-x:hidden;
+}
+.swiper-container1 img{width: 100%;
+          height:100%;}
+.swiper-pagination{position: absolute; right:0.5rem; bottom: 0.25rem;}
+
+/*某东分类*/    
+.nav{width:100%; }      
+.nav .container{display:flex;}
+.nav .container li{flex:1;}
+.nav .container li img{width:1.7rem; height:1.7rem; margin:0 auto; }
+.nav span{width:100%; text-align:center; display:block; font-size:0.4rem; padding-top: 0.1rem; color:#555;}
+.nav .con1{padding-top: 0.75rem;}
+.nav .con2{padding-top:0.5rem; padding-bottom: 0.85rem;}
+
+/*某东快报*/	
+.news{height:1.3rem; overflow:hidden;width:100%;position:relative; background: white;}
+.swiper-container2{position:relative; width:100%; height:1.3rem;}
+.swiper-container2 .swiper-wrapper {
+          width: 10.0rem;
+          height:1.3rem;
+          position: absolute;
+          left:3.6rem;
+          top:0.6rem;
+          font-size: 0.5rem;
+}
+.news img{margin:0.28rem 0 0 0.5rem; width:2.8rem; height:0.6rem;}
+.news a{position: absolute; right:0.5rem; top:0.27rem; font-size: 0.4rem; color:#555;}
+
+/*某东秒杀*/
+.secKill{margin-top:0.35rem; background: white; overflow-x:hidden;}
+.seckHead{height:1.15rem; line-height:1.15rem; font-size: 0.3rem;position: relative;}
+.seckHead img{width:3rem; height:1.2rem; display:inline-block;}
+.seckHead strong{ margin-left: 0.6rem;position: absolute;top:0.03rem;}
+.seckHead .time{position: absolute; top:0.03rem; left:5.5rem;}
+.seckHead a{position: absolute; top:0.03rem; right:0.3rem;color:red; background: url(../img/right1.png) no-repeat right; background-size:0.6rem 0.6rem;padding-right: 0.8rem; }
+
+.swiper-container3{width:25%; height:5rem;background: white;position: relative; margin-top: 0.5rem；}
+.swiper-container3 .seckUl{height:4rem;margin-left: -0.7rem;}
+.swiper-container3 .seckUl .seckList{
+	text-align: center; margin-right: 0.25rem;width:25%;
+	
+}
+.swiper-container3 .swiper-wrapper a{display:inline-block;}
+.swiper-container3 .swiper-wrapper img{width:3rem; height:3rem;margin-bottom: 1rem;}
+.swiper-container3 .swiper-wrapper p{color:red; font-size: 0.7rem; position: absolute;bottom: -0.1rem;left:0.9rem;}
+.swiper-container3 .swiper-wrapper del{color:gray; font-size: 0.5rem;position: absolute;bottom: -0.7rem;left:0.9rem;}
+
+.seckOther{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 0.25rem;
+}
+.seckOtherUl li{
+    float: left;
+    margin-right: -0.25rem;
+    background: white;
+
+}
+.seckOtherUl li a{
+    display: inline-block;
+}
+.seckOtherUl .seckOtherFirstLi{
+    width: 25%;
+    position: relative;
+}
+
+.seckOtherUl .seckOtherLi{
+    width: 25%;
+    text-indent: 0.25rem;
+}
+.seckOtherUl .seckOtherLi a{
+    display: inline-block;
+}
+.seckOtherLi img{
+    width: 4.3rem;
+    height: 3.55rem;
+    margin-top: 0.3rem;
+}
+.graphic-tit{
+    font-size: 0.6rem;
+    font-weight: 100;
+    color: #181818;
+}
+.graphic-wz{
+    font-size: 0.04rem;
+    line-height: 0.75rem;
+    height: 0.75rem;
+}
+/*逛商场*/
+.shopping{
+    width: 100%;
+    background: #fff;
+}
+.shopHead{
+	width:100%;
+	height:0.75rem;
+    background: url(img/shopping.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.shopHead img{
+	width:6.65rem;
+    position: absolute;
+    margin:0.35rem auto;
+}
+
+
+.shopCategory{
+    width: 100%;
+    height: 7.55rem;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+.shopCategoryInfo{
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    overflow: hidden;
+}
+.shopList{
+    width: 50%;
+    position: relative;
+    height: 100%;
+    float: left;
+}
+.shopList>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.shopListShow{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0.35rem 0 0.25rem 0;
+}
+.shopListText{
+    width: 55%;
+   	padding-right: 0.15rem;
+    float: left;
+    padding: 0 0.2rem 0 0.4rem;
+    overflow: hidden;
+}
+.shopListImg{
+    width: 45%;
+    padding-top: 0.1rem;
+    position: absolute;
+    right: 0;
+    padding-right: 0.25rem;
+}
+.shopListImg>img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.textHead{
+    font-size: 0.7rem;
+    line-height: 1.0rem;
+    color: #181818;
+    display: block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: box;
+    line-clamp: 1;
+    box-orient: vertical;
+    font-weight: 600;
+}
+.textInfo{
+        color: #686868;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: box;
+    line-clamp: 1;
+    box-orient: vertical;
+    font-size: 0.55rem;
+    line-height: 0.75rem;
+    margin-bottom: 0.1rem;
+    height: 0.75rem;
+}
+.textBtn{
+    display: inline-block;
+    text-align: center;
+    padding: 0 0.15rem;
+    color: #fff;
+    font-size: 0.55rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    z-index: 20;
+}

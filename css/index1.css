@@ -1,0 +1,469 @@
+@charset "utf-8";
+@media (max-width: 768px) {
+    .search .searchCont a{
+        left: 97%;
+    }
+}
+@media (max-width: 768px) {
+    #maxBox .search {
+        width: 100%;
+    }
+    .bj .info .s3{
+        right: -20%;
+    }
+}
+@media screen and (max-width: 413px) and (min-width: 320px){
+    .bj .info .s3{
+        right: -24%;
+    }
+    .shopping .shopCategory{
+        height: 116px;
+    }
+}
+@media screen and (max-width: 559px) and (min-width: 414px){
+    .seckOther .seckOtherUl .seckOtherLi {
+        margin-right: 0px;
+    }
+    .shopListText .textInfo{
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .shopListText .textHead{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .shopListText .textBtn{
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .shopping .shopCategory{
+        height: 116px;
+    }
+}
+@media screen and (min-width: 375px){
+    .shopListText .textBtn{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 640px){
+    .seckOtherUl .seckOtherLi {
+        margin-right: 0px;
+    }
+    .seckOtherLi a .graphic-tit{
+        font-size: 20px;
+    }
+    .seckOtherLi a .graphic-wz{
+        font-size: 16px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .seckOtherLi a img{
+        width: 95px;
+        height: 90px;
+    }
+    .shopListText .textHead{
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 300;
+    }
+    .shopListText .textInfo{
+        height: 30px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .shopListText .textBtn{
+        font-size: 12px;
+        height: 32px;
+        line-height: 32px;
+    }
+    .footerLi a img{
+        width: 85px;
+    }
+}
+
+#maxBox{width: 100%;min-width: 320px;max-width: 640px;margin: 0 auto;padding-bottom:18px;position:relative;background-color: #f3f3f3;}
+html,body{overflow:hidden;overflow-y:auto;}
+
+
+.search{
+    width: 100%;
+    position: relative;
+    background: rgb(255,0,0);
+    z-index: 9999;
+}
+.bj{
+    width: 100%;
+    height: 50px;
+}
+.info {
+    width: 75%;
+    margin:0 auto;
+    position: absolute;
+    left: 20px;
+    top: 6px;
+}
+.info span{
+    z-index: 999;
+}
+.info .s1{
+    width: 18px;
+    height: 13px;
+    background: url(../img/icon_logo.png)no-repeat;
+    display: inline-block;
+    background-size: 18px 13px;
+    position: relative;
+    left: 30px;
+    top: 12px;
+    float: left;
+    margin-right: 7px;
+}
+.info .s2{
+    width: 22px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    margin: 11px 0px 0 33px;
+    background: url(../img/icon_search.png)no-repeat;
+    background-size: 70%;
+}
+.info .s3{
+    width: 24px;
+    height: 29px;
+    background: url(../img/icon_user.png)no-repeat;
+    position: absolute;
+    right: -20%;
+    top: 10px;
+    display: inline-block;
+    background-size: 67%;
+}
+.info input{
+    width: 76%;
+    border-radius: 10px;
+    padding-left: 60px;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    left: 20px;
+    outline: none;
+}
+/*分类*/
+.ificationUl{
+    width: 100%;
+    margin-top: 15px;
+}
+.ificationUl li{
+    float: left;
+    width: 20%;
+    height: 75px;
+    text-align: center;
+}
+.ificationUl li a{
+    display: inline-block;
+}
+.ificationUl li img{
+    width: 45px;
+    height: 45px;
+}
+.ificationUl li span{
+    display: block;
+    font-size: 12px;
+}
+/*快报news*/
+.news{
+    margin: 10px 0;
+    position: relative;
+    background: white;
+    padding: 5px 10px;
+    height: 20px;
+}
+.news .swiper-slide{
+    font-size: 12px;
+}
+.news .newsInfo{
+    height: 16px;
+    position: absolute;
+    left: 95px;
+}
+.news>a{
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+}
+/*秒杀样式*/
+.seckill{
+    background: white;
+}
+.seckHead{
+    height: 34px;
+    line-height: 34px;
+    vertical-align: middle;
+    background-color: white;
+}
+.seckHead a{
+    float: left;
+}
+.seckHead span{
+    font-size: 10px;
+    color: #f23030;
+    float: right;
+    padding-right: 20px;
+    background: url(../img/right1.png)no-repeat 95% ;
+    background-size:12%;
+}
+.seckHead a img{
+    width: 69px;
+    height: 27px;
+    margin:4px 6px 0 0;
+}
+#seckillNow{
+    font-size: 12px;
+    color: #232326;
+    vertical-align: text-bottom;
+}
+
+/*倒计时*/
+.time{
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.time div{
+    display: inline-block;
+    font-size: 12px;
+    color:black;
+    margin-right: 5px;
+}
+
+.swiper-container1{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.swiper-container1 .seckUl{
+    margin-left: -40%;
+}
+.swiper-container1 .seckList{
+    width: 20%;
+    text-align: center;
+}
+.seckList p{
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
+.seckList del{
+    font-size: 14px;
+    color: gray;
+}
+.swiper-container1 .seckList a{
+    display: inline-block;
+}
+.swiper-container1 .seckList a>img{
+    width: 100%;
+}
+.swiper-wrapper1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    box-sizing: content-box;
+}
+.seckOther{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 5px;
+}
+.seckOtherUl li{
+    float: left;
+    margin-right: -5px;
+}
+.seckOtherUl li a{
+    display: inline-block;
+}
+.seckOtherUl .seckOtherFirstLi{
+    width: 25%;
+    position: relative;
+}
+
+.seckOtherUl .seckOtherLi{
+    width: 25%;
+    text-indent: 5px;
+}
+.seckOtherUl .seckOtherLi a{
+    display: inline-block;
+}
+.seckOtherLi img{
+    width: 86px;
+    height: 71px;
+    margin-top: 6px;
+}
+.graphic-tit{
+    font-size: 16px;
+    font-weight: 100;
+    color: #181818;
+}
+.graphic-wz{
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+}
+/*逛商场样式*/
+.shopping{
+    width: 100%;
+    position: relative;
+    background: #fff;
+}
+.shopHead{
+    position: relative;
+}
+.shopHead>img{
+    width: 100%;
+    position: relative;
+}
+.shopHead>span{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 73.6%;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+}
+.shopHead>span img{
+    display: block;
+    width: auto;
+    max-height: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.shopCategory{
+    width: 100%;
+    height: 151px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+.shopCategoryInfo{
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    overflow: hidden;
+}
+.shopList{
+    width: 50%;
+    position: relative;
+    height: 100%;
+    float: left;
+}
+.shopList>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.shopListShow{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 7px 0 5px 0;
+}
+.shopListText{
+    width: 55%;
+    padding-right: 3px;
+        float: left;
+    padding: 0 4px 0 8px;
+    overflow: hidden;
+}
+.shopListImg{
+    width: 45%;
+    padding-top: 2px;
+    position: absolute;
+    right: 0;
+    padding-right: 5px;
+}
+.shopListImg>img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.textHead{
+    font-size: 14px;
+    line-height: 20px;
+    color: #181818;
+    display: block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: box;
+    line-clamp: 1;
+    box-orient: vertical;
+    font-weight: 600;
+}
+.textInfo{
+        color: #686868;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: box;
+    line-clamp: 1;
+    box-orient: vertical;
+    font-size: 11px;
+    line-height: 15px;
+    margin-bottom: 2px;
+    height: 15px;
+}
+.textBtn{
+    display: inline-block;
+    text-align: center;
+    padding: 0 3px;
+    color: #fff;
+    font-size: 11px;
+    height: 16px;
+    line-height: 16px;
+    z-index: 20;
+}
+/*底部信息*/
+footer{
+    width: 100%;
+    height: 54px;
+}
+.footerDiv{
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    border: 1px solid gainsboro;
+    z-index: 9999;
+}
+.footerUl{
+    width: 100%;
+    position: relative;
+}
+.footerLi{
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+.footerLi a{
+    display: block;
+}
+.footerLi img{
+    width: 65px;
+}
