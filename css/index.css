@@ -64,7 +64,6 @@ header a img{width:0.6rem; height:0.8rem;}
 
 .seckOther{
     width: 100%;
-    height: 100%;
     position: relative;
     margin-top: 0.25rem;
 }
@@ -107,109 +106,51 @@ header a img{width:0.6rem; height:0.8rem;}
 /*逛商场*/
 .shopping{
     width: 100%;
+    position: relative;
     background: #fff;
 }
 .shopHead{
-	width:100%;
-	height:0.75rem;
-    background: url(img/shopping.png) no-repeat;
-    background-size: 100% 100%;
     position: relative;
 }
-.shopHead img{
-	width:6.65rem;
-    position: absolute;
-    margin:0.35rem auto;
-}
-
-
-.shopCategory{
+.shopHead>img{
     width: 100%;
-    height: 7.55rem;
-    overflow: hidden;
     position: relative;
-    box-sizing: border-box;
 }
-.shopCategoryInfo{
-    width: 100%;
-    height: 100%;
-    font-size: 100%;
-    overflow: hidden;
-}
-.shopList{
-    width: 50%;
-    position: relative;
-    height: 100%;
-    float: left;
-}
-.shopList>a{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-.shopListShow{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+.shopHead>span{
     position: absolute;
     left: 0;
-    top: 0;
-    padding: 0.35rem 0 0.25rem 0;
-}
-.shopListText{
-    width: 55%;
-   	padding-right: 0.15rem;
-    float: left;
-    padding: 0 0.2rem 0 0.4rem;
-    overflow: hidden;
-}
-.shopListImg{
-    width: 45%;
-    padding-top: 0.1rem;
-    position: absolute;
     right: 0;
-    padding-right: 0.25rem;
-}
-.shopListImg>img{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-.textHead{
-    font-size: 0.7rem;
-    line-height: 1.0rem;
-    color: #181818;
+    top: 0;
+    bottom: 0;
+    height: 73.6%;
+    margin: auto;
     display: block;
     overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    display: box;
-    line-clamp: 1;
-    box-orient: vertical;
-    font-weight: 600;
 }
-.textInfo{
-        color: #686868;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    display: box;
-    line-clamp: 1;
-    box-orient: vertical;
-    font-size: 0.55rem;
-    line-height: 0.75rem;
-    margin-bottom: 0.1rem;
-    height: 0.75rem;
-}
-.textBtn{
-    display: inline-block;
+.shopHead>span img{
+    display: block;
+    width: auto;
+    max-height: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
     text-align: center;
-    padding: 0 0.15rem;
-    color: #fff;
-    font-size: 0.55rem;
-    height: 0.8rem;
-    line-height: 0.8rem;
-    z-index: 20;
+    margin: 0 auto;
 }
+
+.shopCon{width:100%; height:12rem;}
+.shopCon li{width:7.7rem; height:5.0rem;padding: 0.3rem 0 0.75rem 0.3rem; }
+/*.shopCon li .left{width:4.0rem;}*/
+.shopCon li a{color:#000; font-size: 0.7rem; font-weight: bold;}
+.shopCon li .left p{color:gray; font-size: 0.05rem; }
+.shopCon li span{color:white; background: #7b1aff; font-size: 0.4rem; display:block; line-height:100%; margin-top: 0.15rem; width:3.2rem;padding:0.1rem;}
+.shopCon .right img{width:4rem; margin-left: -2rem;}
+
+/*享品质*/
+.quality{height:21rem;} 
+.quality .down li{width:23%;}
+.quality .down a{font-size: 0.8rem; font-weight: normal;}
+.quality .down p{font-size: 0.3rem; color:gray;}
+.quality .down img{width:4rem;}
