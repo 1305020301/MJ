@@ -2,10 +2,10 @@ html{font-size: 20px;}
 body{background: #eee; overflow: hidden;}
 /*头部搜索栏*/
 header{width:100%; height: 2rem; background: red; position:relative;}
-header input{width:10.5rem; border-radius: 10px;padding:0.25rem 0 0 1.5rem;
+header input{width:10.5rem; border-radius: 10px;padding:0.15rem 0 0 1.5rem;
     height: 1rem;
     line-height:1.6rem;position: absolute;
-    left: 1.0rem;margin-top:0.2rem; background: url(../img/icon_search.png) no-repeat white 0.5rem 0.4rem; background-size:0.6rem 0.6rem;}
+    left: 1.0rem;margin-top:0.3rem; background: url(../img/icon_search.png) no-repeat white 0.5rem 0.4rem; background-size:0.6rem 0.6rem;}
 header a{ position:absolute; right:1.1rem; top:0.6rem;}  
 header a img{width:0.8rem; height:1rem;}
 
